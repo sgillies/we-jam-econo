@@ -2,8 +2,9 @@ we-jam-econo
 ============
 
 A Dockerfile for building an image for testing and debugging Fiona, Rasterio,
-and Shapely. GEOS and GDAL are also built from source in debug mode to 
-assist with testing.
+and Shapely. GEOS and GDAL are also built from source in debug mode. I'm
+developing those packages on OS X and this is what I'm using to avoid getting
+caught out on Linux in the future.
 
 To build and image and run a container based on it is two steps.
 
